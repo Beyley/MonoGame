@@ -30,6 +30,10 @@ namespace Microsoft.Xna.Framework.Graphics
 		Vector2 _texCoordTL = new Vector2 (0,0);
 		Vector2 _texCoordBR = new Vector2 (0,0);
         #endregion
+        
+        #region Public Fields
+        public bool BeginCalled => _beginCalled;
+        #endregion
 
         /// <summary>
         /// Constructs a <see cref="SpriteBatch"/>.
